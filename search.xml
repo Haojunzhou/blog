@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ANACONDA中jupyter代码自动补全设置</title>
+    <url>/2024/08/04/ANACONDA/</url>
+    <content><![CDATA[<h1 id="ANACONDA"><a href="#ANACONDA" class="headerlink" title="ANACONDA"></a>ANACONDA</h1><p>C:\Users\10502</p>
+<p>jupyter</p>
+<p>查询同名代码快捷键：ctrl+f</p>
+<p>显示所有快捷键：h</p>
+<p>查找anaconda中python的安装路径</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/image_ovAhELypop.png"
+                     
+                ></p>
+<ul>
+<li><p>jupyter代码自动补全设置</p>
+<p>第一步：打开Anaconda Prompt &#x20;<br>第二步：依次执行下面的四行代码。（此处使用镜像安装）</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install jupyter_contrib_nbextensions -i  https://pypi.tuna.tsinghua.edu.cn/simple </span><br><span class="line"></span><br><span class="line">jupyter contrib nbextension install --user</span><br><span class="line"></span><br><span class="line">pip install jupyter_nbextensions_configurator -i  https://pypi.tuna.tsinghua.edu.cn/simple </span><br><span class="line"></span><br><span class="line">jupyter nbextensions_configurator enable --user</span><br></pre></td></tr></table></figure></div>
+<p>安装完成之后重新打开jupyter，会看到菜单栏出现 Nbextensions。点击进入。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/image_C6hwppS4m0.png"
+                     
+                ></p>
+<p>将Hinterland选项勾上。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/image/image_Ox0KMWOlkq.png"
+                     
+                ></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2024/08/01/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
@@ -17,5 +59,11 @@
 
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
 </search>
